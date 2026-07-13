@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #52616b;
+}
+
+nav {
+    height: 12vh;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+    padding-top: 3vh;
+    font-size: 2vw;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.menu {
+    display: inline-block;
+    width: 50%;
+    padding-top: 3.2vh;
+    text-align: center;
+    vertical-align: top;
+}
+
+.menu a {
+    margin: 0 1vw;
+    color: #687780;
+    font-size: 1.1vw;
+    text-decoration: none;
+}
+
+.username {
+    display: inline-block;
+    width: 18%;
+    margin-top: 1.5vh;
+    padding: 2vh 1vw;
+    background-color: #eef9ff;
+    color: #00a8ff;
+    font-size: 1vw;
+    text-align: center;
+    vertical-align: top;
+}
+
+.hero-section {
+    height: 88vh;
+    padding: 8vh 5vw;
+    white-space: nowrap;
+}
+
+.hero-content {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.hero-content h1 {
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1.2;
+    color: #52616b;
+}
+
+.hero-content h1 span {
+    color: #00a8ff;
+}
+
+.hero-content p {
+    width: 80%;
+    margin: 2vh 0 5vh;
+    color: #a0aab0;
+    font-size: 1.5vw;
+    line-height: 1.4;
+}
+
+.hero-content button {
+    padding: 2.5vh 4vw;
+    border: none;
+    border-radius: 1.5vw;
+    background-color: #22aef3;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hero-image img {
+    width: 32vw;
+    height: 60vh;
+    border-radius: 2vw;
+    object-fit: cover;
+}
